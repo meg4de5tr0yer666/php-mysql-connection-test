@@ -27,8 +27,8 @@
 
 		if (!$link) {
 		    echo "Critical error 〣( ºΔº )〣";
-		    //echo "Error code: " . mysql_connect_errno() . PHP_EOL;
-		    //echo "Error text: " . mysql_connect_error() . PHP_EOL;
+		    //echo "Error code: " . mysqli_connect_errno() . PHP_EOL;
+		    //echo "Error text: " . mysqli_connect_error() . PHP_EOL;
 		    exit;
 		}
 
